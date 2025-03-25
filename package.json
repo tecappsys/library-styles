@@ -1,0 +1,19 @@
+{
+  "name": "@tecappsys/styles",
+  "version": "1.0.8",
+  "description": "Shared styles for Tecappsys projects",
+  "main": "index.js",
+  "files": [
+    "scss/",
+    "fonts/",
+    "svg/"
+  ],
+  "scripts": {
+    "build": "echo 'Building styles...'",
+    "prepublishOnly": "echo 'Publicando el paquete...'",
+    "publish": "npm publish --registry http://44.221.62.135:4873"
+  },
+  "keywords": ["styles", "scss", "theme"],
+  "author": "Tecappsys",
+  "license": "MIT"
+}
