@@ -1,6 +1,6 @@
 {
   "name": "@tecappsys/styles",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Shared styles for Tecappsys projects",
   "main": "index.js",
   "files": [
