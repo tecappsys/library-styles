@@ -1,5 +1,7 @@
 @import "fonts";
 @import 'themes';
+@import 'tecappsys-components';
+@import 'buttons';
 
 html, body { height: 100%; }
 body { 
@@ -12,30 +14,29 @@ body {
   }
 }
 
-.button-primary{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  cursor: pointer;
-  user-select: none;
-  vertical-align: middle;
-  appearance: none;
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 1.75;
-  min-width: 64px;
-  text-transform: none;
-  box-shadow: none;
-  outline: 0px;
-  margin: 0px;
-  text-decoration: none;
-  padding: 6px 16px;
-  border-width: 0px;
-  border-style: initial;
-  border-color: initial;
-  border-image: initial;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-radius: 25px;
+.custom-container{
+  max-width: 1144px;
+  padding: 0 24px;
+}
+
+.section-router-outlet{
+  margin: 24px 0;
+}
+.container-content{
+  display: flex;
+  flex-grow: 1;
+  padding-bottom: 60px;
+  flex-direction: column;
+  z-index: 1;
+  background-color: transparent;
+}
+.container-content{
+  margin-left: 270px; //87px
+}
+.container-menu{
+  z-index: 100;
+  width: 87px;
+  flex-shrink: 0;
+  position: absolute;
+  border-radius: 13px;
 }

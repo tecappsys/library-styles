@@ -2,7 +2,7 @@
     background-color: map-get($theme, background-body);
     color: map-get($theme, primary-text);
 
-    .icon {
+    .icon-svg {
         transition: fill 0.1s ease; 
         fill: map-get($theme, primary-text);
     }
